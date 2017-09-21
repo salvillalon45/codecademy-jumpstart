@@ -62,7 +62,14 @@ html {
 
 /*********************************************/
 /* Featured Project */
-.title {
+.container {
+  padding-right: 1px;
+  padding-left: 1px;
+  /*margin-right: auto;
+  margin-left: auto;*/
+}
+
+.feature-project-container-title {
   font-size: 1.7rem;
   font-weight: bold;
   color: #399bd1;
@@ -72,12 +79,12 @@ html {
 }
 
 .image-container {
-  height: 19rem;
+  /*height: 19rem;*/
 }
 
 img {
   width: 100%%
-  vertical-align: middle;
+  /*vertical-align: middle;*/
 }
 
 /*.col-xs-6 {
@@ -108,3 +115,20 @@ img {
   .col-xs-6 {
     padding-top: 20px;
   }
+
+/*********************************************/
+/* Projects */
+.project-container-title {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+.project .title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.project .image-container {
+  height: 13.5rem;
+}
