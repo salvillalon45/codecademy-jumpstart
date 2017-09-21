@@ -2,10 +2,17 @@ html {
   font-size: 14px;
   font-family: "Open Sans";
 }
-/*****************************/
+
+/*********************************************/
 /* Navigation Bar */
 .navbar-default .navbar-nav .active a:hover {
   /*background-color: black;*/
+}
+
+.navbar-default .navbar-nav a {
+ font-family: "Open Sans";
+ font-size: 1.1rem;
+ font-weight: bold;
 }
 
 .navbar-default .navbar-nav .active a {
@@ -16,4 +23,70 @@ html {
   nav img {
     display: none;
   }
+}
+
+/*********************************************/
+/* Jumbotron */
+.jumbotron .jumbotron-bike {
+}
+
+.jumbotron .jumbotron-bike {
+  padding-top: 11.85rem;
+  padding-bottom: 11.85rem;
+  background-image: url("../images/jumbotron-bike.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbotron .jumbotron-bike p {
+  text-shadow: 1px 1px #000000;
+  color: white;
+  /*display: flex;
+  justify-content: center;*/
+  width: 51.3rem;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.jumbotron .jumbotron-bike h1 {
+  text-align: center;
+  font-family: Monoton;
+  font-size: 7.1rem;
+  color: white;
+  text-shadow: -1px -1px 0 #000,
+               -1px -1px 0 #000,
+               -1px -1px 0 #000,
+               -1px -1px 0 #000;
+}
+
+/*********************************************/
+/* Featured Project */
+.title {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+.col-md-6 img {
+  width: 450px;
+}
+.col-md-3-title-DeFrost {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.col-md-3-title-product-categories {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+.col-md-3 ul {
+  list-style-type: none;
+}
+
+.col-md-3 ul li {
+  line-height: 1.4;
+  color: rgba(0,0,0,0.7);
+  position: relative;
+  right: 40px;
 }
