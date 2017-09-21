@@ -69,6 +69,11 @@ html {
   margin-left: auto;*/
 }
 
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
 .feature-project-container-title {
   font-size: 1.7rem;
   font-weight: bold;
@@ -76,14 +81,11 @@ html {
 }
 .image-container img {
   opacity: 0.7;
-}
-
-.image-container {
-  /*height: 19rem;*/
+  width:100%
 }
 
 img {
-  width: 100%%
+  /*width: 100%%*/
   /*vertical-align: middle;*/
 }
 
@@ -95,6 +97,7 @@ img {
   font-size: 1.3rem;
   font-weight: bold;
 }
+
 .col-md-3-title-product-categories {
   font-size: 1.3rem;
   font-weight: bold;
