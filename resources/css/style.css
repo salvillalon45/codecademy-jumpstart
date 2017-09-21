@@ -67,9 +67,23 @@ html {
   font-weight: bold;
   color: #399bd1;
 }
-.col-md-6 img {
-  width: 450px;
+.image-container img {
+  opacity: 0.7;
 }
+
+.image-container {
+  height: 19rem;
+}
+
+img {
+  width: 100%%
+  vertical-align: middle;
+}
+
+/*.col-xs-6 {
+  padding-top: 20px;
+}*/
+
 .col-md-3-title-DeFrost {
   font-size: 1.3rem;
   font-weight: bold;
@@ -90,3 +104,7 @@ html {
   position: relative;
   right: 40px;
 }
+@media only screen and (max-width: 1000px) {
+  .col-xs-6 {
+    padding-top: 20px;
+  }
