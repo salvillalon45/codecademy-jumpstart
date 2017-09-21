@@ -1,0 +1,19 @@
+html {
+  font-size: 14px;
+  font-family: "Open Sans";
+}
+/*****************************/
+/* Navigation Bar */
+.navbar-default .navbar-nav .active a:hover {
+  /*background-color: black;*/
+}
+
+.navbar-default .navbar-nav .active a {
+ color: #399bd1;
+}
+
+@media only screen and (max-width: 768px) {
+  nav img {
+    display: none;
+  }
+}
