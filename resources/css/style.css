@@ -63,10 +63,10 @@ html {
 /*********************************************/
 /* Featured Project */
 .container {
-  padding-right: 1px;
-  padding-left: 1px;
-  /*margin-right: auto;
-  margin-left: auto;*/
+  padding-right: 15px;
+  padding-left: -15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .row {
@@ -74,7 +74,7 @@ html {
   margin-left: -15px;
 }
 
-.feature-project-container-title {
+.container-title {
   font-size: 1.7rem;
   font-weight: bold;
   color: #399bd1;
@@ -93,12 +93,12 @@ img {
   padding-top: 20px;
 }*/
 
-.col-md-3-title-DeFrost {
+.title {
   font-size: 1.3rem;
   font-weight: bold;
 }
 
-.col-md-3-title-product-categories {
+.title-product-categories {
   font-size: 1.3rem;
   font-weight: bold;
   color: #399bd1;
@@ -118,20 +118,52 @@ img {
   .col-xs-6 {
     padding-top: 20px;
   }
+}
 
 /*********************************************/
 /* Projects */
-.project-container-title {
-  font-size: 1.7rem;
-  font-weight: bold;
-  color: #399bd1;
-}
-
 .project .title {
   font-size: 1.3rem;
   font-weight: bold;
+  padding-top: 60px;
 }
 
 .project .image-container {
   height: 13.5rem;
+}
+
+.container  .row .project{
+  padding-bottom: 5.85rem;
+}
+
+@media only screen and (max-width: 1224px) {
+  .project .title {
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .project .title {
+    padding-top: -10px;
+  }
+}
+
+/*********************************************/
+/* Having Trouble */
+.trouble {
+  background-color: #f3f3f3;
+  padding-top: 5.2rem;
+  padding-bottom: 5.2rem;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+
+.trouble-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.trouble p {
+  padding-top: 1.4rem;
+  width: 42rem;
 }
