@@ -28,15 +28,13 @@ html {
 /*********************************************/
 /* Jumbotron */
 .jumbotron .jumbotron-bike {
-}
-
-.jumbotron .jumbotron-bike {
   padding-top: 11.85rem;
   padding-bottom: 11.85rem;
   background-image: url("../images/jumbotron-bike.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  text-align: center;
 }
 
 .jumbotron .jumbotron-bike p {
@@ -44,9 +42,10 @@ html {
   color: white;
   /*display: flex;
   justify-content: center;*/
-  width: 51.3rem;
+  /*width: 51.3rem;*/
   text-align: center;
   margin: 0px auto;
+  padding-bottom: 2.8rem;
 }
 
 .jumbotron .jumbotron-bike h1 {
@@ -79,18 +78,25 @@ html {
   font-weight: bold;
   color: #399bd1;
 }
+
 .image-container img {
+  transition: transform .5s, opacity .5s;
   opacity: 0.7;
   width:100%
 }
 
-img {
-  /*width: 100%%*/
-  /*vertical-align: middle;*/
+.image-container {
+  oveflow: hidden;
 }
 
-/*.col-xs-6 {
-  padding-top: 20px;
+.image-container img:hover {
+  opacity: 1;
+  transform: scale(1.3);
+}
+
+/*img {
+  width: 100%%
+  vertical-align: middle;
 }*/
 
 .title {
@@ -155,7 +161,6 @@ img {
   padding-top: 5.2rem;
   padding-bottom: 5.2rem;
   text-align: center;
-  justify-content: center;
 }
 
 .btn:hover {
@@ -177,11 +182,16 @@ img {
   padding-right: 1.3rem;
   align-items: center;
 }
+
 .trouble-title {
   font-size: 2.5rem;
   font-weight: bold;
+  margin: 0px auto;
+
 }
 .trouble p {
-  padding-top: 1.4rem;
+  /*padding-top: 1.4rem;*/
   width: 42rem;
+  margin: 0px auto;
+  padding-bottom: 2.8rem;
 }
