@@ -24,8 +24,4 @@ var scrollEvent = (function() {
   }
 });
 
-console.log("HELLO THERE! ");
-
-
-
 $(window).scroll(scrollEvent);
