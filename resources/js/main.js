@@ -5,7 +5,7 @@ $(document).ready(function() {
     autoplaySpeed: 4000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    draggable: false;
+    draggable: false,
     pauseOnFocus: false,
     pauseOnHover: false
   });
@@ -23,6 +23,8 @@ var scrollEvent = (function() {
       howFarUserScroll = currentVerticalPositionOfScrollBar;
   }
 });
+
+console.log("HELLO THERE! ");
 
 
 
