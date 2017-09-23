@@ -18,7 +18,7 @@ var scrollEvent = (function() {
       var heightOfNavbar = $('.navbar').css('height');
       $('.navbar').animate({top: '-' + heightOfNavbar}, 150);
       howFarUserScroll = currentVerticalPositionOfScrollBar;
-  } else if (currentVerticalPositionOfScrollBar - howFarUserScroll < 50) {
+  } else if (howFarUserScroll - currentVerticalPositionOfScrollBar > 50) {
       $('.navbar').animate({top: 0}, 150);
       howFarUserScroll = currentVerticalPositionOfScrollBar;
   }
