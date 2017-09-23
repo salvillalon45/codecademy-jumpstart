@@ -19,7 +19,7 @@ var scrollEvent = (function() {
       $('.navbar').animate({top: '-' + heightOfNavbar}, 150);
       howFarUserScroll = currentVerticalPositionOfScrollBar;
   } else if (currentVerticalPositionOfScrollBar - howFarUserScroll < 50) {
-      $('.navbar').animate({top: '+' + 0}, 150);
+      $('.navbar').animate({top: 0}, 150);
       howFarUserScroll = currentVerticalPositionOfScrollBar;
   }
 });

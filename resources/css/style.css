@@ -207,6 +207,13 @@ html {
   border: 0px
 }
 
+.relative-wrapper {
+  position: relative;
+  top: -17.5rem;
+  width: 100%;
+  text-align: center;
+}
+
 .trouble-title {
   font-size: 2.5rem;
   font-weight: bold;
